@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta name="Francesco Pezzuto" content="CV" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>CV Pezzuto Francesco</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome (usa solo la versione 6) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="background">
+  <!-- navbar -->
+  <div class="container-fluid">
+    <div class="row pt-5" data-aos="fade-up">
+      <div class="col-12 col-md-4"></div>
+      <div class="col-12 col-md-4 text-center">
+        <img class="img-fluid image-profile" src="images/foto-profilo.png" alt="foto-profilo" />
+      </div>
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-2 d-flex justify-content-center mt-3">
+        <a href="file/FirstCV.pdf" class="cv-download-btn" target="_blank" download>
+          <div class="btn-content">
+            <span class="btn-text">Download CV</span>
+            <div class="icon-container">
+              <i class="fas fa-cloud-download-alt icon-cloud"></i>
+              <i class="fas fa-arrow-down icon-arrow"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col text-center">
+        <h1 class="title-name">Francesco Pezzuto</h1>
+        <h2 class="subtitle">Student</h2>
+      </div>
+    </div>
+  </div>
+
+<!-- About & Certifications Section -->
+<div class="row pt-5">
+  <div class="col-12">
+    <hr class="hr-certification">
+  </div>
+</div>
+
+<div class="row d-flex align-items-stretch">
+  <!-- About Card -->
+  <div class="col-12 col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
+    <div class="about-card p-3 d-flex flex-column justify-content-center text-center h-100" 
+         style="max-width: 90%; width: 100%;">
+      <h2 class="section-title mb-3 text-white">Personal Info</h2>
+
+      <div class="info-item">
+        <div class="info-tags d-flex justify-content-center flex-wrap gap-2">
+          <span class="info-tag text-white"><i class="fa fa-user me-2 color-about"></i>Age: <span id="birthday"></span></span>
+          <span class="info-tag text-white"><i class="fa fa-map-marker me-2  color-about"></i>Noale, VE</span>
+        </div>
+      </div>
+
+      <div class="info-item mt-3">
+        <div class="info-tags d-flex justify-content-center flex-wrap gap-2">
+          <span class="info-tag text-white"><i class="fa fa-envelope me-2 color-about"></i>francescopezzy04@gmail.com</span>
+          <span class="info-tag text-white"><i class="fa fa-phone me-2 color-about"></i>+39 3518628569</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certifications Card -->
+  <div class="col-12 col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
+    <div class="certification-card p-3 d-flex flex-column justify-content-center text-center h-100" 
+         style="max-width: 90%; width: 100%;">
+      <h2 class="section-title mb-3 text-white">Certifications</h2>
+
+      <div class="certification-item color-about">
+        <div class="certification-tag d-flex justify-content-between align-items-center">
+          <span class="text-white">Cisco Linux Essentials</span>
+          <div>
+            <span class="certification-year">2020</span>
+            <a href="file/prova.pdf" target="_blank" class="ms-2 eye-icon">
+              <i class="fa fa-eye"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="hr-certification mt-2">
+      </div>
+
+      <div class="certification-item mt-3">
+        <div class="certification-tag d-flex text-white justify-content-between align-items-center">
+          <span>Cybersecurity Essentials</span>
+          <div>
+            <span class="certification-year color-about">2022</span>
+            <a href="file/cybersecurity-essentials.pdf" target="_blank" class="ms-2 eye-icon">
+              <i class="fa fa-eye"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="hr-certification mt-2">
+      </div>
+
+      <!-- Aggiungi altre certificazioni allo stesso modo -->
+    </div>
+  </div>
+</div>
+
+
+  <!-- Education Timeline -->
+  <div class="timeline-section pt-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5 text-white" data-aos="fade-up">Education</h2>
+
+      <div class="timeline">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Istituto Tecnico Levi-Ponti</h3>
+              <span class="timeline-date">2019 - 2023</span>
+            </div>
+            <div class="timeline-body">
+              <p class="text-white">Indirizzo Informatica</p>
+              <ul class="timeline-skills">
+                <li>Fondamenti di programmazione</li>
+                <li>Web Developing</li>
+                <li>Fondamenti Database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fa fa-university"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Università Ca' Foscari Venezia</h3>
+              <span class="timeline-date">2023 - Present</span>
+            </div>
+            <div class="timeline-body">
+              <p class="text-white">Laurea Triennale in Data Science</p>
+              <ul class="timeline-skills">
+                <li>Machine Learning</li>
+                <li>Big Data Analytics</li>
+                <li>Statistical Modeling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Experience Timeline -->
+  <div class="timeline-section pt-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5 text-white" data-aos="fade-up">Work Experience</h2>
+
+      <div class="timeline">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fa fa-briefcase"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Addetto Vendite part-time</h3>
+              <span class="timeline-date">Agosto 2023 - Ottobre 2023</span>
+              <span class="company">Mediaworld</span>
+            </div>
+            <div class="timeline-body">
+              <ul class="timeline-skills">
+                <li>Addetto vendite</li>
+                <li>Reparto Elettronica</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fa fa-pizza-slice"></i> <!-- Icona pizza -->
+            </div>
+            <div class="timeline-header">
+              <h3>Aiuto Pizzaiolo</h3>
+              <span class="timeline-date">Ottobre 2023 - Present</span>
+              <span class="company">Zeus Pizza</span>
+            </div>
+            <div class="timeline-body">
+              <ul class="timeline-skills">
+                <li>Aiuto pizzaiolo</li>
+                <li>Addetto senza glutine</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills & Languages Section -->
+  <div class="row pt-5">
+    <div class="col-12">
+      <hr class="hr-certification">
+    </div>
+  </div>
+
+  <div class="row d-flex align-items-stretch">
+    <!-- Skills Column -->
+    <div class="col-12 col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
+      <div class="skill-card p-3 d-flex flex-column justify-content-center text-center h-100"
+        style="max-width: 90%; width: 100%;">
+        <h2 class="section-title mb-3 text-white">Technical Skills</h2>
+
+        <div class="skill-category">
+          <h4 class="skill-heading text-center">Programming Languages</h4>
+          <div class="skill-tags d-flex justify-content-center flex-wrap gap-2">
+            <span class="skill-tag">C/C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category mt-3">
+          <h4 class="skill-heading text-center">Web Development</h4>
+          <div class="skill-tags d-flex justify-content-center flex-wrap gap-2">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">jQuery</span>
+            <span class="skill-tag">AJAX</span>
+            <span class="skill-tag">JSON/XML</span>
+          </div>
+        </div>
+
+        <div class="skill-category mt-3">
+          <h4 class="skill-heading text-center">Database</h4>
+          <div class="skill-tags d-flex justify-content-center flex-wrap gap-2">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MYSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Languages Column -->
+    <div class="col-12 col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
+      <div class="language-card p-3 d-flex flex-column justify-content-center text-center h-100"
+        style="max-width: 90%; width: 100%;">
+        <h2 class="section-title mb-3 text-white">Languages</h2>
+
+        <div class="language-progress text-center">
+          <div class="d-flex justify-content-center text-white">
+            <span>Italiano (Madrelingua)</span>
+          </div>
+        </div>
+
+        <div class="language-progress mt-3 text-center">
+          <div class="d-flex justify-content-center text-white">
+            <span>English (B2)</span>
+          </div>
+          <div class="progress mt-2 mx-auto" style="width: 70%">
+            <div class="progress-bar" style="width: 75%"></div>
+          </div>
+          <div class="skill-details mt-2 text-white d-flex justify-content-center gap-2">
+            <small>Writing: B2</small>
+            <small>Reading: B2</small>
+            <small>Comprehension: B2</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contacts Section -->
+  <div class="row pt-5 mt-5">
+    <div class="col-12 text-center" data-aos="zoom-in">
+      <h2 class="section-title mb-4 text-white">Get in Touch</h2>
+      <div class="social-links d-flex justify-content-center gap-4">
+        <a href="mailto:francescopezzy04@gmail.com?subject=Richiesta%20di%20informazioni&body=Salve,%20vorrei%20maggiori%20informazioni." class="social-icon email">
+          <i class="fas fa-envelope"></i>
+          <span class="hover-text">Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/francesco-pezzuto-622578216/" class="social-icon linkedin">
+          <i class="fab fa-linkedin"></i>
+          <span class="hover-text">LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Footer con copyright -->
+  <footer class="text-center py-3">
+    <p class="textwhite">&copy; <span id="current-year"></span> Francesco Pezzuto. All rights reserved.</p>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
